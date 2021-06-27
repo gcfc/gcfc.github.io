@@ -42,7 +42,7 @@
 .owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
-    margin: -65px 7px;
+    margin: -65px 7px; /* ADJUST THIS */
     background: #D6D6D6;
     display: block;
     -webkit-backface-visibility: visible;
