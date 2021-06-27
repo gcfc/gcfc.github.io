@@ -2,8 +2,9 @@
 
 
 
-Date started: July 11, 2019
-
-Last updated: September 7, 2020
+Date started: June 21, 2021
 
 Languages used: HTML, CSS, JavaScript
+
+Version: v2.0
+
