@@ -528,6 +528,15 @@ section {
   position: relative;
 }
 
+@media screen and (max-width: 500px) {
+  .resume .resume-item {
+    padding: 0 0 0px 10px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+  }
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
