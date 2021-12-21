@@ -1,13 +1,10 @@
-/**
-* Template Name: MyResume - v4.3.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -553,7 +550,7 @@ section {
 @media screen and (max-width: 500px) {
   .resume .resume-item {
     padding: 0 0 0px 10px;
-    margin-top: -2px;
+    margin-top: 20px; /* -2px */
     border-left: 2px solid #0563bb;
     position: relative;
   }
@@ -600,6 +597,11 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #0563bb;
+}
+
+.resume .resume-item .row .col-sm-1 .bx-chevron-up {
+  color: #0563bb;
+  font-size: 24pt;
 }
 
 /*--------------------------------------------------------------

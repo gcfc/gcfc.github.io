@@ -34,11 +34,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
   <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
 </head>
 
 <body>
@@ -211,7 +206,7 @@
 
         <div class="section-title">
           <h2>Experience</h2>
-          <p><em>Click on each one to see more!</em></p>
+          <p><em>Expand each one to see more!</em></p>
         </div>
 
         <div class="row">
@@ -408,7 +403,7 @@
               </div>
 
               <!-- GALLERY -->
-              <div id="owl-demo7" class="owl-carousel owl-theme">
+              <div id="owl-demo5" class="owl-carousel owl-theme">
                 <div class="item" style="margin-top: 15%;"> <img src="img/SSL/1block_diagram.jpg" alt=""> </div>
                 <div class="item" style="width: 70%; margin: auto;"> <img src="img/SSL/2heater.jpg" alt=""> </div>
                 <div class="item" style="margin-top: 10%;"> <img src="img/SSL/3setup.jpg" alt=""> </div>
@@ -430,7 +425,7 @@
 
         <div class="section-title">
           <h2>Projects</h2>
-          <p><em>Click on each one to see more!</em></p>
+          <p><em>Expand each one to see more!</em></p>
         </div>
 
         <div class="row">
@@ -480,7 +475,7 @@
               </div>
 
               <!-- GALLERY -->
-              <div id="owl-demo5" class="owl-carousel owl-theme">
+              <div id="owl-demo7" class="owl-carousel owl-theme">
                 <div class="item" style="margin-top: 10%;"> <img src="img/2.007/1.jpg" alt=""> </div>
                 <div class="item" style="margin-top: 10%;"> <img src="img/2.007/2.jpg" alt=""> </div>
                 <div class="item" style="width: 50%; margin: auto;"> <img src="img/2.007/3.jpg" alt=""> </div>
@@ -512,7 +507,7 @@
               </div>
 
               <!-- GALLERY -->
-              <div id="owl-demo6" class="owl-carousel owl-theme">
+              <div id="owl-demo8" class="owl-carousel owl-theme">
                 <div class="item-video">
                   <iframe src="https://www.youtube.com/embed/Wbp6DE6aanY" allowfullscreen></iframe>
                 </div>
@@ -550,7 +545,7 @@
               </div>
 
               <!-- GALLERY -->
-              <div id="owl-demo4" class="owl-carousel owl-theme">
+              <div id="owl-demo9" class="owl-carousel owl-theme">
                 <div class="item-video">
                   <iframe src="https://player.vimeo.com/video/271886755" allowfullscreen></iframe>
                 </div>
@@ -1033,40 +1028,7 @@
   <script src="js/main.js"></script>
   <script src="owlcarousel/jquery.min.js"></script>
   <script src="owlcarousel/owl.carousel.min.js"></script>
-  <script>
-    $(document).ready(function () {
-
-      $("#owl-demo, #owl-demo1, #owl-demo2, #owl-demo3, #owl-demo4, #owl-demo5, #owl-demo6, #owl-demo7").owlCarousel({
-
-        nav: true, // Show next and prev buttons
-        navText: ["<", ">"],
-        slideSpeed: 300,
-        paginationSpeed: 400,
-        // singleItem: true
-
-        // "singleItem:true" is a shortcut for:
-        items: 1,
-        itemsDesktop: false,
-        itemsDesktopSmall: false,
-        itemsTablet: false,
-        itemsMobile: false,
-
-        lazyLoad: true,
-        rewindSpeed: 1000,
-        autoHeight: false,
-        merge: true,
-        loop: true,
-        margin: 10,
-        video: true,
-        lazyLoad: true,
-        center: true,
-        dots: true,
-
-      });
-
-    });
-  </script>
-    
+      
   <script type="text/javascript">
     var sc_project = 12096732;
     var sc_invisible = 1;
@@ -1076,20 +1038,47 @@
   
   <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
   <noscript>
-    <divclass="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
-          class="statcounter" src="https://c.statcounter.com/12096732/0/bb9b9e78/1/" alt="Web
-    Analytics"></a></div>
+    <divclass="statcounter"><a title="statcounter" href="https://statcounter.com/" target="_blank"><img
+          class="statcounter" src="https://c.statcounter.com/12096732/0/bb9b9e78/1/" alt=""></a></div>
   </noscript>
 
   <script>
-
-    const arrows = document.getElementsByClassName('bx-chevron-up');
-    for (let i = 0; i < arrows.length; i++) {
-      arrows[i].style.color = "#0563bb";
-      arrows[i].style.fontSize = "24pt";
-    }
-
     const NUM_SECS = 100;
+    $(document).ready(function () {
+      for (let i = 0; i < NUM_SECS; i++) {
+        try {
+          $(`#owl-demo${i}`).owlCarousel({
+
+            nav: true, // Show next and prev buttons
+            navText: ["<", ">"],
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            // singleItem: true
+
+            // "singleItem:true" is a shortcut for:
+            items: 1,
+            itemsDesktop: false,
+            itemsDesktopSmall: false,
+            itemsTablet: false,
+            itemsMobile: false,
+
+            lazyLoad: true,
+            rewindSpeed: 1000,
+            autoHeight: false,
+            merge: true,
+            loop: true,
+            margin: 10,
+            video: true,
+            lazyLoad: true,
+            center: true,
+            dots: true,
+          });
+        } catch (TypeError) {
+          continue;
+        }
+      }
+    });
+
     for (let i = 0; i < NUM_SECS; i++) {
       try {
         const header = document.getElementById(`proj-header-${i}`);
@@ -1110,7 +1099,6 @@
       } catch (TypeError) {
         break;
       }
-
     }
   </script>
 
