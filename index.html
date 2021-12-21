@@ -16,8 +16,7 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    type="text/css"
+  <link type="text/css"
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/91dda387ae.js" crossorigin="anonymous"></script>
@@ -104,7 +103,7 @@
         <div class="row">
           <div class="col-lg-5">
             <img src="img/profile-img.jpg" class="img-fluid center" alt=""
-            style="aspect-ratio: initial; max-height: 4in; border-radius: 50%;">
+              style="aspect-ratio: initial; border-radius: 50%;">
 
           </div>
           <div class="col-lg-7 pt-4 pt-lg-0 content" style="line-height: 2em;">
@@ -143,8 +142,9 @@
         <div class="section-title">
           <h2>Education</h2>
           <h3>Massachusetts Institute of Technology</h3>
-          <p>Candidate for M.S. in Mechanical Engineering, Concentration in Robotics</p>
-          <p><em>Expected Jun 2022</em></p>
+          <p>Candidate for M.S. in Mechanical Engineering</p>
+          <p><em>Research Interests: Control & Robotics</em></p>
+          <p><em>Expected May 2022</em></p>
           <br />
           <p>B.S. in Mechanical Engineering, Minor in Computer Science</p>
           <p><em>Aug 2017 - Jun 2021</em></p>
@@ -195,6 +195,7 @@
                 <li>2.151: Advanced System Dynamics and Control (<a href="pdf/2.151.pdf">paper</a>)</li>
                 <li>6.881: Robotic Manipulation (<a href="pdf/6.881.pdf">paper</a>)</li>
                 <li>6.832: Underactuated Robotics (<a href="pdf/6.832.pdf">paper</a>)</li>
+                <li>2.160: System Identification, Estimation, and Learning</li>
               </ul>
             </div>
           </div>
@@ -210,131 +211,201 @@
 
         <div class="section-title">
           <h2>Experience</h2>
+          <p><em>Click on each one to see more!</em></p>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-
             <div class="resume-item pb-0">
-              <h3>SpaceX</h3>
-              <h4>Associate Hardware Test Software Engineer</h4>
-              <p><em>Hawthorne, CA</em></p>
-              <h5>Jun 2021 - Aug 2021</h5>
-              <p><em>With the goal of providing internet to remote corners of the world, Starlink factory is accelerating the production of user terminals. My work brought to life an automated calibration station with PLC logic, instructing robots to transport dishes to and from test chambers, start the calibration test software, and communicate real-time statuses to advance the conveyor line. I drove this project from initial development to deploying to production in the span of 10 weeks. As you are reading this, my robots are now sitting on the Starlink production floor, potentially yielding hundreds of calibrated units per hour. </em></p>
-              <ul>
-                <li>Designed, simulated, and commissioned an automated calibration station, using 6DOF ABB industrial robots and test chambers, for high-volume production of Starlink user terminals</li>
-                <li>Programmed sequencer logics in a complex Beckhoff PLC system for robots, test chambers, associated sensors, and status communication with conveyor line </li>
-                <li>Responsible for continuous optimization and maintenance of deployed station software, including HMI and failure recovery procedures </li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-0">
+                  <h3>SpaceX</h3>
+                  <h4>Associate Hardware Test Software Engineer</h4>
+                  <p><em>Hawthorne, CA</em></p>
+                  <h5>Jun 2021 - Aug 2021</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-0"></i>
+                </div>
+              </div>
+              <div id="proj-child-0">
+                <p><em>With the goal of providing internet to remote corners of the world, the Starlink factory is
+                    accelerating the production of user terminals. My work brought to life an automated calibration
+                    station
+                    with PLC logic, instructing robots to execute planned paths, actuate suction cups at the
+                    end-effector,
+                    and communicate real-time statuses to advance the conveyor line. I drove this project from initial
+                    development to deploying to production in the span of 10 weeks. As you are reading this, my robots
+                    are
+                    now sitting on the Starlink production floor, potentially yielding hundreds of calibrated units per
+                    hour.</em></p>
+                <ul>
+                  <li>Designed, simulated, and commissioned an automated calibration station, using 6DOF ABB industrial
+                    robots and test chambers, for high-volume production of Starlink user terminals</li>
+                  <li>Programmed sequencer logics in a complex Beckhoff PLC system for robots, test chambers, associated
+                    sensors, and status communication with conveyor line </li>
+                  <li>Responsible for continuous optimization and maintenance of deployed station software, including
+                    HMI
+                    and failure recovery procedures </li>
+                </ul>
+              </div>
             </div>
 
             <div class="resume-item pb-0">
-              <h3>Dexai Robotics</h3>
-              <h4>Robotics Engineering Intern</h4>
-              <p><em>Somerville, MA</em></p>
-              <h5>Dec 2020 - Feb 2021</h5>
-              <p><em>A kitchen assistant robotics startup automating the food assembly process, with robot
-                  arms using
-                  utensils to scoop and dispense ingredients.</em></p>
-              <ul>
-                <li>Refactored C++ codebase to improve data logging coverage during robot executions,
-                  wrote Python scripts to parse, analyze, and visualize logged load cell sensor data
-                </li>
-                <li>Developed an API that allows Python calls to C++ functions in the codebase,
-                  implemented unit and system tests using GoogleTest framework </li>
-                <li>Established environment for reinforcement learning training using OpenAI Gym </li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-1">
+                  <h3>Dexai Robotics</h3>
+                  <h4>Robotics Engineering Intern</h4>
+                  <p><em>Somerville, MA</em></p>
+                  <h5>Dec 2020 - Feb 2021</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-1"></i>
+                </div>
+              </div>
+              <div id="proj-child-1">
+                <p><em>A kitchen assistant robotics startup automating the food assembly process, with robot arm using
+                    utensils to scoop and dispense ingredients. </em></p>
+                <ul>
+                  <li>Refactored C++ codebase to improve data logging coverage during robot executions,
+                    wrote Python scripts to parse, analyze, and visualize logged load cell sensor data
+                  </li>
+                  <li>Developed an API that allows Python calls to C++ functions in the codebase,
+                    implemented unit and system tests using GoogleTest framework </li>
+                  <li>Established environment for reinforcement learning training using OpenAI Gym </li>
+                </ul>
+              </div>
             </div>
+
             <div class="resume-item pb-0">
-              <h3>Waymo (formerly Google's Self-Driving Car Project)</h3>
-              <h4>Systems Engineering Intern, Fault Protection</h4>
-              <p><em>Mountain View, CA</em></p>
-              <h5>May 2020 - Aug 2020</h5>
-              <p><em>Waymo is the autonomous driving company under Alphabet. I developed a software solution to facilitate the System Engineering team’s fault analysis efforts, as they rapidly expand to more Operational Design Domains. Despite being virtual, this internship provided me the valuable opportunity to collaborate with colleagues across various teams and disciplines in Waymo.</em></p>
-              <ul>
-                <li>Designed and implemented a software tool in Python and XML, incorporating Cameo
-                  Systems Modeler and open-source packages, to streamline the process of system
-                  representation and fault tree analysis </li>
-                <li>Quantitatively analyzed root causes of faults in an autonomous system and their
-                  mappings to system-level outcomes and metrics, using Boolean logic and probabilistic
-                  models in SysML </li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-2">
+                  <h3>Waymo (formerly Google's Self-Driving Car Project)</h3>
+                  <h4>Systems Engineering Intern, Fault Protection</h4>
+                  <p><em>Mountain View, CA</em></p>
+                  <h5>May 2020 - Aug 2020</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-2"></i>
+                </div>
+              </div>
+              <div id="proj-child-2">
+                <p><em>The autonomous driving company under Alphabet. I developed a software solution to facilitate the
+                    System Engineering team's fault analysis efforts, as they rapidly expand to analyze more Operational
+                    Design Domains. Despite being virtual, this internship provided me the valuable opportunity to
+                    collaborate with colleagues across various teams and disciplines in Waymo.</em></p>
+                <ul>
+                  <li>Designed and implemented a software tool in Python and XML, incorporating Cameo
+                    Systems Modeler and open-source packages, to streamline the process of system
+                    representation and fault tree analysis </li>
+                  <li>Quantitatively analyzed root causes of faults in an autonomous system and their
+                    mappings to system-level outcomes and metrics, using Boolean logic and probabilistic
+                    models in SysML </li>
+                </ul>
+              </div>
             </div>
+
             <div class="resume-item pb-0">
-              <h3>Daimler Trucks North America</h3>
-              <h4>Product Validation Engineer Intern</h4>
-              <p><em>Portland, OR</em></p>
-              <h5>Jun 2019 - Aug 2019</h5>
-              <p><em>An automotive company that manufactures commercial vehicles, including Freightliner,
-                  Western Star,
-                  and Mercedes-Benz. I worked in Product Validation Engineering which tests and
-                  instruments designed
-                  systems on the vehicles prior
-                  to production. </em></p>
-              <ul>
-                <li>Designed and iteratively prototyped a distributed IMU sensor system to measure
-                  articulation angle of instrumentation tractor-trailer trucks in Arduino</li>
-                <li>Tested and evaluated performance of the sensor system in MATLAB, optimized its
-                  accuracy via sensor fusion with GPS using Kalman Filter, designed interface PCB
-                  layout to read and write CAN messages</li>
-                <li>Validated ADAS front camera systems by processing recorded videos using computer
-                  vision in Python (OpenCV)
-                </li>
-                <li>Assisted in engine noise testing and durability testing efforts, assembled brake
-                  pressure transducers and CAN bus harnesses for steering / handling tests</li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-3">
+                  <h3>Daimler Trucks North America</h3>
+                  <h4>Product Validation Engineer Intern</h4>
+                  <p><em>Portland, OR</em></p>
+                  <h5>Jun 2019 - Aug 2019</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-3"></i>
+                </div>
+              </div>
+              <div id="proj-child-3">
+                <p><em>An automotive company that manufactures commercial vehicles, including Freightliner, Western
+                    Star,
+                    and Mercedes-Benz. I worked in Product Validation Engineering which tests and instruments designed
+                    systems on the tractor-trailer trucks prior to production. </em></p>
+                <ul>
+                  <li>Designed and iteratively prototyped a distributed IMU sensor system to measure
+                    articulation angle of instrumentation tractor-trailer trucks in Arduino</li>
+                  <li>Tested and evaluated performance of the sensor system in MATLAB, optimized its
+                    accuracy via sensor fusion with GPS using Kalman Filter, designed interface PCB
+                    layout to read and write CAN messages</li>
+                  <li>Validated ADAS front camera systems by processing recorded videos using computer
+                    vision in Python (OpenCV)
+                  </li>
+                  <li>Assisted in engine noise testing and durability testing efforts, assembled brake
+                    pressure transducers and CAN bus harnesses for steering / handling tests</li>
+                </ul>
+              </div>
             </div>
+
+
           </div>
+
+
           <div class="col-lg-6">
+
+
             <div class="resume-item pb-0">
-              <h3>Millennium Space Systems, A Boeing Company</h3>
-              <h4>Spacecraft Thermal Engineer Extern</h4>
-              <p><em>El Segundo, CA</em></p>
-              <h5>Jan 2019</h5>
-              <p><em>A Boeing-acquired company that designs and manufactures satellites and satellite
-                  components. I
-                  designed a comparative test in the thermal vacuum chamber to characterize thermal
-                  properties of
-                  several insulation materials for in-house
-                  testing purposes. </em></p>
-              <ul>
-                <li>Designed and executed a characterization test in thermal vacuum chamber comparing
-                  the effectiveness of multilayer insulation with other reflective materials, analyzed
-                  test data using MATLAB and Microsoft Excel</li>
-                <li>Composed test plans, test procedures, and memorandum for record for release to
-                  Document Control and Management, created drawings of test configurations using
-                  Solidworks</li>
-                <li>Worked with system engineers and program managers to assist in requirement
-                  verification across multiple subsystems for a flight program, ensured action items
-                  were in compliance before delivering
-                </li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-4">
+                  <h3>Millennium Space Systems, A Boeing Company</h3>
+                  <h4>Spacecraft Thermal Engineer Extern</h4>
+                  <p><em>El Segundo, CA</em></p>
+                  <h5>Jan 2019</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-4"></i>
+                </div>
+              </div>
+              <div id="proj-child-4">
+                <p><em>A Boeing-acquired company that designs and manufactures satellites and satellite components. I
+                    designed and executed a comparative test in the thermal vacuum chamber to characterize thermal
+                    properties of several insulation materials for in-house testing purposes. </em></p>
+                <ul>
+                  <li>Designed and executed a characterization test in thermal vacuum chamber comparing
+                    the effectiveness of multilayer insulation with other reflective materials, analyzed
+                    test data using MATLAB and Microsoft Excel</li>
+                  <li>Composed test plans, test procedures, and memorandum for record for release to
+                    Document Control and Management, created drawings of test configurations using
+                    Solidworks</li>
+                  <li>Worked with system engineers and program managers to assist in requirement
+                    verification across multiple subsystems for a flight program, ensured action items
+                    were in compliance before delivering
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <div class="resume-item pb-0">
-              <h3>MIT Space Systems Laboratory & Lincoln Laboratory: WaferSat</h3>
-              <h4>Research Assistant, Thermal Engineering Team</h4>
-              <p><em>Cambridge, MA</em></p>
-              <h5>Jan 2018 - Aug 2018</h5>
-              <p><em>Ongoing research on nanosatellites in the MIT Space Systems Laboratory in conjunction
-                  with Lincoln
-                  Laboratory. We developed a prototype consisting of an 8-inch-diameter wafer with
-                  incorporated
-                  microelectronics. I worked with Prof.
-                  David Miller and a team of students to develop a PID thermal control system and
-                  analyze the thermal
-                  properties of the nanosatellite. </em></p>
-              <ul>
-                <li>Characterized thermal behaviors of a PCBSat prototype in space-like environment
-                  simulated in thermal vacuum chamber </li>
-                <li>Developed and optimized PID control algorithm using Python and C++ to maintain
-                  steady-state temperature inside thermal vacuum chamber with 40% less power output
-                </li>
-                <li>Analyzed temperature signals using MATLAB and correlated with analytical model in
-                  Thermal Desktop
-                </li>
-                <li>Calculated center of mass and other inertial and dynamic properties of the
-                  nanosatellite to ensure orbital stability using Solidworks and Microsoft Excel</li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-5">
+                  <h3>MIT Space Systems Laboratory & Lincoln Laboratory: WaferSat</h3>
+                  <h4>Research Assistant, Thermal Engineering Team</h4>
+                  <p><em>Cambridge, MA</em></p>
+                  <h5>Jan 2018 - Aug 2018</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-5"></i>
+                </div>
+              </div>
+              <div id="proj-child-5">
+                <p><em>Ongoing research on nanosatellites in the MIT Space Systems Laboratory in conjunction with
+                    Lincoln
+                    Laboratory. We developed a prototype consisting of an 8-inch-diameter wafer with incorporated
+                    microelectronics. I worked with Prof. David Miller and a team of students to develop a PID thermal
+                    control system and analyze the thermal properties of the nanosatellite.</em></p>
+                <ul>
+                  <li>Characterized thermal behaviors of a PCBSat prototype in space-like environment
+                    simulated in thermal vacuum chamber </li>
+                  <li>Developed and optimized PID control algorithm using Python and C++ to maintain
+                    steady-state temperature inside thermal vacuum chamber with 40% less power output
+                  </li>
+                  <li>Analyzed temperature signals using MATLAB and correlated with analytical model in
+                    Thermal Desktop
+                  </li>
+                  <li>Calculated center of mass and other inertial and dynamic properties of the
+                    nanosatellite to ensure orbital stability using Solidworks and Microsoft Excel</li>
+                </ul>
+              </div>
 
               <!-- GALLERY -->
               <div id="owl-demo7" class="owl-carousel owl-theme">
@@ -359,35 +430,54 @@
 
         <div class="section-title">
           <h2>Projects</h2>
+          <p><em>Click on each one to see more!</em></p>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
             <div class="resume-item pb-0">
-              <h3>Aerospace Controls Laboratory</h3>
-              <h5>Sept 2019 - Dec 2019</h5>
-              <p><em>Robotics Research Assistant</em></p>
-              <p><em>Skills used: ROS, Gazebo, C++, Linux</em></p>
-              <ul>
-                <li>Analyzed the kinematic tree of a self-balancing Segway robot</li>
-                <li>Developed a URDF model in ROS and a working simulation in the Gazebo environment
-                </li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-6">
+                  <h3>Aerospace Controls Laboratory</h3>
+                  <h5>Sept 2019 - Dec 2019</h5>
+                  <p><em>Robotics Research Assistant</em></p>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-6"></i>
+                </div>
+              </div>
+              <div id="proj-child-6">
+                <p><em>Skills used: ROS, Gazebo, C++, Linux</em></p>
+                <ul>
+                  <li>Analyzed the kinematic tree of a self-balancing Segway robot</li>
+                  <li>Developed a URDF model in ROS and a working simulation in the Gazebo environment
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div class="resume-item pb-0">
-              <h3>2.007 Design and Manufacturing</h3>
-              <h5>Feb 2019 - Jun 2019</h5>
-              <p><em>The MIT mechanical engineering class that inspired the national FIRST Robotics
-                  program.</em></p>
-              <ul>
-                <li>Prototyped and designed mechanisms to plant a flag and retrieve moonrocks on a game
-                  board</li>
-                <li>Manufactured and assembled all systems of the robot, including powertrain and
-                  transmission, using power tools and hand tools </li>
-                <li>Programmed the robot in Arduino to respond to commands from a PlayStation game
-                  controller</li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-7">
+                  <h3>2.007 Design and Manufacturing</h3>
+                  <h5>Feb 2019 - Jun 2019</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-7"></i>
+                </div>
+              </div>
+              <div id="proj-child-7">
+                <p><em>The MIT mechanical engineering class that inspired the national FIRST Robotics
+                    program.</em></p>
+                <ul>
+                  <li>Prototyped and designed mechanisms to plant a flag and retrieve moonrocks on a game
+                    board</li>
+                  <li>Manufactured and assembled all systems of the robot, including powertrain and
+                    transmission, using power tools and hand tools </li>
+                  <li>Programmed the robot in Arduino to respond to commands from a PlayStation game
+                    controller</li>
+                </ul>
+              </div>
 
               <!-- GALLERY -->
               <div id="owl-demo5" class="owl-carousel owl-theme">
@@ -399,18 +489,27 @@
               </div>
 
             </div>
-
           </div>
+
           <div class="col-lg-6">
             <div class="resume-item pb-0">
-              <h3>2.678 Autonomous Robot Competition</h3>
-              <h5>Feb 2019 - Jun 2019</h5>
-              <p><em>Grand Champion</em></p>
-              <ul>
-                <li>Programmed and tested an autonomous robot that uses infrared sensors to follow a
-                  discontinuously marked course with sharp turns </li>
-                <li>Won first place in the autonomous race out of ~60 students</li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-8">
+                  <h3>2.678 Autonomous Robot Competition</h3>
+                  <h5>Feb 2019 - Jun 2019</h5>
+                  <p><em>Grand Champion</em></p>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-8"></i>
+                </div>
+              </div>
+              <div id="proj-child-8">
+                <ul>
+                  <li>Programmed and tested an autonomous robot that uses infrared sensors to follow a
+                    discontinuously marked course with sharp turns </li>
+                  <li>Won first place in the autonomous race out of ~60 students</li>
+                </ul>
+              </div>
 
               <!-- GALLERY -->
               <div id="owl-demo6" class="owl-carousel owl-theme">
@@ -420,25 +519,35 @@
                 <div class="item" style="width: 60%; margin: auto"> <img src="img/2.678/1.jpg" alt=""> </div>
                 <div class="item" style="margin-top: 10%;"> <img src="img/2.678/2.jpg" alt=""> </div>
               </div>
+
             </div>
 
             <div class="resume-item pb-0">
-              <h3>2.00B Toy Product Design</h3>
-              <h5>Feb 2018 - Jun 2018</h5>
-              <p><em>Entertainment and play-themed course that explores all stages of the product
-                  designing process,
-                  including brainstorming, sketch modeling, and prototyping. I worked in a team of
-                  four over the course
-                  of a semester to prototype a
-                  piano toy that paints onto a rolling sheet of paper. </em></p>
-              <ul>
-                <li>Designed, laser-cut, and 3D printed internal support structures for the piano using
-                  Solidworks and Adobe Illustrator</li>
-                <li>Programmed speakers to synchronize with key presses using Arduino and wired
-                  connections for all electronics
-                </li>
-                <li>Delivered presentation of design ideas to an audience of more than 300 people</li>
-              </ul>
+              <div class="row">
+                <div class="col-sm-11" id="proj-header-9">
+                  <h3>2.00B Toy Product Design</h3>
+                  <h5>Feb 2018 - Jun 2018</h5>
+                </div>
+                <div class="col-sm-1">
+                  <i class="bx bx-chevron-up" id="arrow-9"></i>
+                </div>
+              </div>
+              <div id="proj-child-9">
+                <p><em>Entertainment and play-themed course that explores all stages of the product
+                    designing process,
+                    including brainstorming, sketch modeling, and prototyping. I worked in a team of
+                    four over the course
+                    of a semester to prototype a
+                    piano toy that paints onto a rolling sheet of paper. </em></p>
+                <ul>
+                  <li>Designed, laser-cut, and 3D printed internal support structures for the piano using
+                    Solidworks and Adobe Illustrator</li>
+                  <li>Programmed speakers to synchronize with key presses using Arduino and wired
+                    connections for all electronics
+                  </li>
+                  <li>Delivered presentation of design ideas to an audience of more than 300 people</li>
+                </ul>
+              </div>
 
               <!-- GALLERY -->
               <div id="owl-demo4" class="owl-carousel owl-theme">
@@ -450,6 +559,7 @@
                 <div class="item"> <img src="img/2.00B/3.jpg" alt=""> </div>
                 <div class="item"> <img src="img/2.00B/4.jpg" alt=""> </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -489,21 +599,19 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="img/photography/boston_esplanade.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title=""><i
-                      class="bx bx-zoom-in"></i></a>
+                    class="portfolio-lightbox" title=""><i class="bx bx-zoom-in"></i></a>
                 </div>
               </div>
             </div>
           </div>
-        
-          <div class="col-lg-4 col-md-6 portfolio-item urban">
+
+          <div class="col-lg-4 col-md-6 portfolio-item boston">
             <div class="portfolio-wrap">
-              <img src="img/photography/sf_golden_gate.jpeg" class="img-fluid" alt="">
+              <img src="img/photography/boston_mit.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="img/photography/sf_golden_gate.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title=""><i
-                      class="bx bx-zoom-in"></i></a>
+                  <a href="img/photography/boston_mit.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title=""><i class="bx bx-zoom-in"></i></a>
                 </div>
               </div>
             </div>
@@ -515,6 +623,18 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="img/photography/boston_memorialday.jpeg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item urban">
+            <div class="portfolio-wrap">
+              <img src="img/photography/sf_golden_gate.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a href="img/photography/sf_golden_gate.jpeg" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-zoom-in"></i></a>
                 </div>
               </div>
@@ -538,9 +658,8 @@
               <img src="img/photography/milky_way.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="img/photography/milky_way.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title=""><i
-                      class="bx bx-zoom-in"></i></a>
+                  <a href="img/photography/milky_way.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title=""><i class="bx bx-zoom-in"></i></a>
                 </div>
               </div>
             </div>
@@ -557,6 +676,8 @@
               </div>
             </div>
           </div>
+
+
 
           <div class="col-lg-4 col-md-6 portfolio-item boston nature">
             <div class="portfolio-wrap">
@@ -654,30 +775,6 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item urban night">
-            <div class="portfolio-wrap">
-              <img src="img/photography/lasvegas.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="img/photography/lasvegas.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title=""><i class="bx bx-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item urban night">
-            <div class="portfolio-wrap">
-              <img src="img/photography/lasvegas2.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="img/photography/lasvegas2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title=""><i class="bx bx-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item nyc">
             <div class="portfolio-wrap">
               <img src="img/photography/nyc_birds.jpeg" class="img-fluid" alt="">
@@ -727,13 +824,13 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item nature">
+          <div class="col-lg-4 col-md-6 portfolio-item urban nyc">
             <div class="portfolio-wrap">
-              <img src="img/photography/portland_japanese_garden2.jpeg" class="img-fluid" alt="">
+              <img src="img/photography/nyc_chinatown.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="img/photography/portland_japanese_garden2.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title=""><i class="bx bx-zoom-in"></i></a>
+                  <a href="img/photography/nyc_chinatown.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title=""><i class="bx bx-zoom-in"></i></a>
                 </div>
               </div>
             </div>
@@ -769,18 +866,6 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="img/photography/teton.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title=""><i class="bx bx-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item urban">
-            <div class="portfolio-wrap">
-              <img src="img/photography/UT_cityhall.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="img/photography/UT_cityhall.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title=""><i class="bx bx-zoom-in"></i></a>
                 </div>
               </div>
@@ -862,34 +947,38 @@
 
           <div class="col-lg-4">
             <img src="img/profile-img.jpg" class="img-fluid center" alt=""
-            style="aspect-ratio: initial; max-height: 4in; border-radius: 50%;">
+              style="aspect-ratio: initial; max-height: 4in; border-radius: 50%;">
 
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0" style="font-family: 'Poppins', sans-serif;">
-            <form action="http://web.mit.edu/bin/cgiemail/gcfchen/www/mail.txt" class="bg-light p-4 p-md-5 contact-form" method="post">
+            <form action="http://web.mit.edu/bin/cgiemail/gcfchen/www/mail.txt" class="bg-light p-4 p-md-5 contact-form"
+              method="post">
               <div class="form-group">
-                  <input type="text" class="form-control" name="required-name" placeholder="Name" required>
+                <input type="text" class="form-control" name="required-name" placeholder="Name" required>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" name="required-email" placeholder="Email" required>
+                <input type="text" class="form-control" name="required-email" placeholder="Email" required>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone number (optional)" >
+                <input type="text" class="form-control" name="phone" placeholder="Phone number (optional)">
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" >
+                <input type="text" class="form-control" name="subject" placeholder="Subject">
               </div>
               <div class="form-group">
-                  <textarea cols="30" rows="7" name="message" class="form-control" placeholder="Enter your message here!" ></textarea>
+                <textarea cols="30" rows="7" name="message" class="form-control"
+                  placeholder="Enter your message here!"></textarea>
               </div>
-              <div class="buttons" style="line-height: 1.5em; margin-bottom: 20px; padding: 15px 30px 15px 30px; border-radius: 15px; margin-right: 25px;">
-                  <input type="submit" value="Send Message" class="btn btn-primary py-1 px-2.5">
-                  <input type="reset" value="Clear All" class="btn btn-primary py-1 px-2.5">
-                  <input type="hidden" name="cgiemail-mailopt" value="sync">
+              <div class="buttons">
+                <input type="submit" value="Send Message" class="btn btn-primary py-2 px-2.5"
+                  style="background-color: #0563bb; padding: 30px 20px 30px 20px; margin-right: 30px; border-radius: 15px;">
+                <input type="reset" value="Clear All" class="btn btn-primary py-2 px-2.5"
+                  style="background-color: #0563bb; padding: 30px 20px 30px 20px; margin-right: 30px; border-radius: 15px;">
+                <input type="hidden" name="cgiemail-mailopt" value="sync">
               </div>
               <input type="hidden" name="success" value="http://www.mit.edu/~gcfchen/success.html">
-          </form>
+            </form>
           </div>
 
         </div>
@@ -976,8 +1065,8 @@
       });
 
     });
-        </script>
-  
+  </script>
+    
   <script type="text/javascript">
     var sc_project = 12096732;
     var sc_invisible = 1;
@@ -991,6 +1080,39 @@
           class="statcounter" src="https://c.statcounter.com/12096732/0/bb9b9e78/1/" alt="Web
     Analytics"></a></div>
   </noscript>
+
+  <script>
+
+    const arrows = document.getElementsByClassName('bx-chevron-up');
+    for (let i = 0; i < arrows.length; i++) {
+      arrows[i].style.color = "#0563bb";
+      arrows[i].style.fontSize = "24pt";
+    }
+
+    const NUM_SECS = 100;
+    for (let i = 0; i < NUM_SECS; i++) {
+      try {
+        const header = document.getElementById(`proj-header-${i}`);
+        const child = document.getElementById(`proj-child-${i}`);
+        const arrow = document.getElementById(`arrow-${i}`);
+        arrow.style.transitionDuration = ".25s";
+        arrow.style.cursor = 'pointer';
+        child.style.display = 'none';
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+          arrow.style.transform = arrow.style.transform === "rotate(180deg)" ? "rotate(0deg)" : "rotate(180deg)";
+          child.style.display = child.style.display === 'none' ? 'block' : 'none';
+        });
+        arrow.addEventListener('click', () => {
+          arrow.style.transform = arrow.style.transform === "rotate(180deg)" ? "rotate(0deg)" : "rotate(180deg)";
+          child.style.display = child.style.display === 'none' ? 'block' : 'none';
+        });
+      } catch (TypeError) {
+        break;
+      }
+
+    }
+  </script>
 
 </body>
 
