@@ -6,5 +6,5 @@ Date started: June 21, 2021
 
 Languages used: HTML, CSS, JavaScript
 
-Version: v2.0
+Version: v2.1
 
