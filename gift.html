@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>happy bday mc &lt;3 </title>
+  <meta property="og:image" content="gift/profile-img.jpg" />
+  <meta name="image" content="gift/profile-img.jpg" />
+  <meta content="happy bday mc &lt;3" name="description">
+  <meta content="ecard" name="keywords">
+
+  <!-- Favicons -->
+  <link href="gift/icon.jpg" rel="icon">
+  <link href="gift/apple-touch-icon.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="gift/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="gift/style.css">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button>
+  <i class="bi bi-list mobile-na/v-toggle d-xl-none"></i> -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end">
+    <div class="container" data-aos="zoom-in-right" data-aos-delay="0" style="padding-bottom: 10vh;">
+      <p style="font-size: 22pt;">
+          <span class="typed"
+          data-typed-items="
+          message here"></span>
+      </p>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/purecounter/purecounter.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/typed.js/typed.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="gift/main.js"></script>
+  <script src="owlcarousel/jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+      
+  <script type="text/javascript">
+    var sc_project = 12096732;
+    var sc_invisible = 1;
+    var sc_security = "bb9b9e78";
+    var sc_https = 1;
+  </script>
+  
+  <script>
+    const NUM_SECS = 100;
+    $(document).ready(function () {
+      for (let i = 0; i < NUM_SECS; i++) {
+        try {
+          $(`#owl-demo${i}`).owlCarousel({
+
+            nav: true, // Show next and prev buttons
+            navText: ["<", ">"],
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            // singleItem: true
+
+            // "singleItem:true" is a shortcut for:
+            items: 1,
+            itemsDesktop: false,
+            itemsDesktopSmall: false,
+            itemsTablet: false,
+            itemsMobile: false,
+
+            lazyLoad: true,
+            rewindSpeed: 1000,
+            autoHeight: false,
+            merge: true,
+            loop: true,
+            margin: 10,
+            video: true,
+            lazyLoad: true,
+            center: true,
+            dots: true,
+          });
+        } catch (TypeError) {
+          continue;
+        }
+      }
+    });
+
+    for (let i = 0; i < NUM_SECS; i++) {
+      try {
+        const header = document.getElementById(`proj-header-${i}`);
+        const child = document.getElementById(`proj-child-${i}`);
+        const arrow = document.getElementById(`arrow-${i}`);
+        arrow.style.transitionDuration = ".25s";
+        arrow.style.cursor = 'pointer';
+        child.style.display = 'none';
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+          arrow.style.transform = arrow.style.transform === "rotate(180deg)" ? "rotate(0deg)" : "rotate(180deg)";
+          child.style.display = child.style.display === 'none' ? 'block' : 'none';
+        });
+        arrow.addEventListener('click', () => {
+          arrow.style.transform = arrow.style.transform === "rotate(180deg)" ? "rotate(0deg)" : "rotate(180deg)";
+          child.style.display = child.style.display === 'none' ? 'block' : 'none';
+        });
+      } catch (TypeError) {
+        break;
+      }
+    }
+  </script>
+
+</body>
+
+</html>
