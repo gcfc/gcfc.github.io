@@ -1,10 +1,10 @@
-# This is the Github repository of my personal website, worked off of an open-source template. 
+# birthday card for mc <3
 
 
 
-Date started: June 21, 2021
+Date started: May 5, 2022
 
 Languages used: HTML, CSS, JavaScript
 
-Version: v2.1
+Version: v1.0
 
