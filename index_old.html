@@ -3,28 +3,31 @@
 
 <head>
   <script type='text/javascript'>
-    window.smartlook||(function(d) {
-      var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-      var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-      c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
-      })(document);
-      smartlook('init', '0788a7ae8a2371ac6dde318701425502a3421456', { region: 'eu' });
+    window.smartlook || (function (d) {
+      var o = smartlook = function () { o.api.push(arguments) }, h = d.getElementsByTagName('head')[0];
+      var c = d.createElement('script'); o.api = new Array(); c.async = true; c.type = 'text/javascript';
+      c.charset = 'utf-8'; c.src = 'https://web-sdk.smartlook.com/recorder.js'; h.appendChild(c);
+    })(document);
+    smartlook('init', '0788a7ae8a2371ac6dde318701425502a3421456', { region: 'eu' });
   </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3R35X67875"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-3R35X67875');
   </script>
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KSXR32S');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KSXR32S');</script>
   <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -62,8 +65,8 @@
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSXR32S"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSXR32S" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -74,20 +77,13 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
-        </li>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#education" class="nav-link scrollto"><i class="bx bx-book-open"></i> <span>Education</span></a>
-        </li>
-        <li><a href="#experience" class="nav-link scrollto"><i class="bx bx-laptop"></i>
-            <span>Experience</span></a>
-        </li>
-        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-wrench"></i> <span>Projects</span></a>
-        </li>
-        <li><a href="#photography" class="nav-link scrollto"><i class="bx bx-camera"></i> <span>Photography</span></a>
-        </li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
-        </li>
+        <li><a href="#education" class="nav-link scrollto"><i class="bx bx-book-open"></i> <span>Education</span></a></li>
+        <li><a href="#experience" class="nav-link scrollto"><i class="bx bx-laptop"></i><span>Experience</span></a></li>
+        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-wrench"></i> <span>Projects</span></a></li>
+        <li><a href="#photography" class="nav-link scrollto"><i class="bx bx-camera"></i> <span>Photography</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav>
     <!-- .nav-menu -->
@@ -125,23 +121,22 @@
 
         <div class="row">
           <div class="col-lg-5">
-            <img src="img/profile-img.jpg" class="img-fluid center" alt=""
-              style="aspect-ratio: inherit; width: 300pt">
-
+            <img src="img/profile-img.jpg" class="img-fluid center" alt="" style="aspect-ratio: inherit; width: 300pt">
           </div>
-          <div class="col-lg-7 pt-4 pt-lg-0 content" style="line-height: 2em;font-family: 'Poppins', sans-serif; text-align: justify; text-justify: inter-word;">
+          <div class="col-lg-7 pt-4 pt-lg-0 content"
+            style="line-height: 2em;font-family: 'Poppins', sans-serif; text-align: justify; text-justify: inter-word;">
             <p>
-              <strong>Hey there! </strong>My name is George Chen, and I'm a software engineer at 
+              <strong>Hey there! </strong>My name is George Chen, and I'm a software engineer at
               Zoox, working on motion planning and controls for autonomous driving! I spent 5 unforgettable
-              years at MIT, earning a Master's degree in mechanical engineering and a Bachelor's degree also 
+              years at MIT, earning a Master's degree in mechanical engineering and a Bachelor's degree also
               in mechanical engineering with a minor in computer science.
             </p>
             <p>
               My years at the Institute have made me a self-driven fast learner, both in academics and in
               the industry. Once a subject sparks a tiny bit of my interest, I get carried away unraveling
-              its mysteries, one after another. My dedication has allowed me to gain expertise in the field 
-              of controls and robotics, which has an interesting blend of hardware and software. While the 
-              courses I took provided me a strong theoretical foundation, my research and internship 
+              its mysteries, one after another. My dedication has allowed me to gain expertise in the field
+              of controls and robotics, which has an interesting blend of hardware and software. While the
+              courses I took provided me a strong theoretical foundation, my research and internship
               experiences allow me to apply said knowledge into practical engineering.
               I am very fortunate to have collaborated with many talented colleagues on innovative and
               impactful projects, and I continue to seek for such opportunities.
@@ -728,8 +723,8 @@
               <img src="img/photography/boston_plants.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="img/photography/boston_plants.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title=""><i class="bx bx-zoom-in"></i></a>
+                  <a href="img/photography/boston_plants.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title=""><i class="bx bx-zoom-in"></i></a>
                 </div>
               </div>
             </div>
@@ -1047,10 +1042,11 @@
       <h6 class="footer" style="color:black; font-size: 16px">
         Thanks for reading, Visitor #
         <a href="#">
-            <img src="http://hitwebcounter.com/counter/counter.php?page=7129109&style=0025&nbdigits=5&type=page&initCount=200">
+          <img
+            src="http://hitwebcounter.com/counter/counter.php?page=7129109&style=0025&nbdigits=5&type=page&initCount=200">
         </a> ! <br /> Stay tuned for future updates! <br />
         <script>
-            document.write((new Date().getMonth() + 1) + '/' + new Date().getDate() + '/' + new Date().getFullYear());
+          document.write((new Date().getMonth() + 1) + '/' + new Date().getDate() + '/' + new Date().getFullYear());
         </script>
 
       </h6>
@@ -1077,14 +1073,14 @@
   <script src="js/main.js"></script>
   <script src="owlcarousel/jquery.min.js"></script>
   <script src="owlcarousel/owl.carousel.min.js"></script>
-      
+
   <script type="text/javascript">
     var sc_project = 12096732;
     var sc_invisible = 1;
     var sc_security = "bb9b9e78";
     var sc_https = 1;
   </script>
-  
+
   <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
   <noscript>
     <divclass="statcounter"><a title="statcounter" href="https://statcounter.com/" target="_blank"><img

@@ -12,21 +12,20 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Kanit:200" rel="stylesheet">
 
-    <!-- Font Awesome Icon -->
-    <link type="text/css" rel="stylesheet" href="http://web.mit.edu/gcfchen/www/css/font-awesome.min.css" />
-
-    <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="http://web.mit.edu/gcfchen/www/css/error.css">
-
     <!-- Font -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
 
-    <!-- Stylesheets -->
-    <link href="http://web.mit.edu/gcfchen/www_old/css/bootstrap.css" rel="stylesheet">
-    <link href="http://web.mit.edu/gcfchen/www_old/css/styles.css" rel="stylesheet">
-    <link href="http://web.mit.edu/gcfchen/www_old/css/responsive.css" rel="stylesheet">
-    <link href="http://web.mit.edu/gcfchen/www_old/css/ionicons.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="vendor/aos/aos.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -50,14 +49,18 @@
 
             <h2>Looks like you just got 404'd!</h2>
             <a href="https://en.wikipedia.org/wiki/HTTP_404">What is 404, you may ask? </a>
-            <p style="color: black"> <br />Not sure why you landed here, but the page you are looking for is not unavailable. ¯\_(ツ)_/¯ </p>
-            <p style="color: black">Don't worry though, you could <a href="../index.html">return to homepage</a></p>
-
+            <p style="color: black"> <br />Not sure why you landed here, but the page you are looking for doesn't exist. ¯\_(ツ)_/¯ </p>
+            <p style="color: black">Don't worry though, you can still <a href="../index.html">return to homepage</a></p>
+            <p style="color: black">Or you can try to search for it:</p>
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="What do you wanna know?" required style="width: 100%;">
+                <button type="submit">Search</button>
+            </form> 
             <div class="notfound-social">
-                <a href="https://www.linkedin.com/in/gcfchen/"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/curious.ch3n/"><i class="fa fa-instagram"></i></a>
-                <a href="http://facebook.com/gcfchen314"><i class="fa fa-facebook"></i></a>
-                <a href="../img/wechat.jpg" target="_blank"><i class="fa fa-weixin"></i></a>
+                <a href="https://www.linkedin.com/in/gcfchen/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.github.com/gcfc" class="github"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/curious.ch3n/" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="img/wechat.jpg" target="_blank"><i class="fa fa-weixin" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

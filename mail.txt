@@ -1,5 +1,5 @@
 From: [required-email]
-To: gcfchen@mit.edu
+To: gcfchen314@gmail.com
 Subject: [subject]
 
 Name: [required-name]
